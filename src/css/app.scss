@@ -1,0 +1,17 @@
+// app global css in SCSS form
+body{
+    background-color: #111;
+}
+.q-card > div:not(:first-child), .q-card > img:not(:first-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #3c3c3c;
+    color: white;
+}
+.bg-blue {
+    background: #ecb8b3 !important;
+}
+.q-toolbar__title{
+    color: #fff;
+    text-decoration: none;
+}
